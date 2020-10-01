@@ -83,15 +83,15 @@ Button(root, text="Clear", padx=77, pady=20, command=clear).grid(
     row=4, column=1, columnspan=2)
 
 
-Button(root, text="+", padx=40, pady=20,
+Button(root, text="+", padx=50, pady=20,
        command=button_add).grid(row=1, column=3)
-Button(root, text="-", padx=41, pady=20,
+Button(root, text="-", padx=51, pady=20,
        command=button_sub).grid(row=2, column=3)
-Button(root, text="/", padx=40, pady=20,
+Button(root, text="/", padx=50, pady=20,
        command=button_div).grid(row=3, column=3)
 
 
-Button(root, text="=", padx=40, pady=20,
+Button(root, text="=", padx=50, pady=20,
        command=button_equal).grid(row=4, column=3)
 
 
